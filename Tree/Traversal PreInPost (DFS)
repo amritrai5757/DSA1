@@ -1,0 +1,9 @@
+Recursive soln:o(n)
+void dfs(Node* root){
+   if(!root)return;
+   //cout<<root->data; For Preorder
+   dfs(root->left);
+   //cout<<root->data; For Inorder
+   dfs(root->right);
+   //cout<<root->data; For Postorder
+}

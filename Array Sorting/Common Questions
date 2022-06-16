@@ -1,0 +1,26 @@
+To check if ax+by=n  or to check find min(x+y) in this question-:
+int i=0;
+while(x*i<=z){//value of x or i not changed
+    if ((n - i*a)%y == 0){cout<<"Yes"<<endl;return;}
+    i++;
+}
+
+The above question also clears that Only i++(++i)andi=x(i+=x)changes i value not eg:if(i+1)  
+
+a*b*c = lcm(a*b*c)*gcd(a*b*c)
+gcd(a*b) = Largest coprime of a,b  eg:gcd(5,3)=1(coprime of 5,3)
+lcm is divisible by gcd
+
+Never use v[-1] , causes runtime error & interviewer will be confused.
+
+Never use set<pair<int,int>> = map cause key cant change in both  hence no use 
+
+Never use set/multiset/map/multimap in competitive prograamming sort the vector instead (large constant because of tree implementation)
+
+
+
+Time complexity:
+0(loop) = 7 - (testcase + n )   (approx)
+exception -> if guarrented then loop = guarrented value
+     if loop = 0 o(n)
+       

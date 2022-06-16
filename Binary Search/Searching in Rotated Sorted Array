@@ -1,0 +1,14 @@
+void find min element
+while(start<=end){
+     mid=(start+end)/2;
+     if(a[mid]<=a[next] && a[mid]<=a[prev]break;  //next=(mid+1)%n for n  &  prev=(mid+n-1)%n for 0
+     else if(arr[start]<=a[mid])start=mid+1;
+     else end=mid-1;
+  }
+  return mid-0; 
+
+
+void binary serach 
+
+call for both parts
+

@@ -1,0 +1,4 @@
+When present:
+lower_bound = 1st element
+upper_bound = 1+last element
+
